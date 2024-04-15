@@ -1,4 +1,4 @@
-using courses_dotnet_api.Src.DTOs.Account;
+    using courses_dotnet_api.Src.DTOs.Account;
 using courses_dotnet_api.Src.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -37,4 +37,11 @@ public class AccountController : BaseApiController
 
         return TypedResults.Ok(accountDto);
     }
+
+    [HttpPost("login")]
+    public async Task<IResult> Login(LoginDto loginDto)
+    {
+
+    }
+
 }
