@@ -1,4 +1,4 @@
-using courses_dotnet_api.Src.DTOs.Account;
+    using courses_dotnet_api.Src.DTOs.Account;
 using courses_dotnet_api.Src.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography;
